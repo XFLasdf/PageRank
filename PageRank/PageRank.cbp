@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PageRank" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PageRank" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=nocona" />
+					<Add option="-O2" />
+					<Add option="-std=gnu++17" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PageRank" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Block_Stripe.h" />
+		<Unit filename="include/OutputNode.h" />
+		<Unit filename="include/PageRank.h" />
+		<Unit filename="include/PageRankVector.h" />
+		<Unit filename="include/SparseMatrix.h" />
+		<Unit filename="include/Stripe.h" />
+		<Unit filename="include/VectorBlock.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Block_Stripe.cpp" />
+		<Unit filename="src/OutputNode.cpp" />
+		<Unit filename="src/PageRank.cpp" />
+		<Unit filename="src/PageRankVector.cpp" />
+		<Unit filename="src/SparseMatrix.cpp" />
+		<Unit filename="src/Stripe.cpp" />
+		<Unit filename="src/VectorBlock.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

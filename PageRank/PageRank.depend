@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1690419242 source:d:\software\development environment\c++ program\pthread\pagerank\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<unordered_set>
+	<windows.h>
+	<stdlib.h>
+	<pthread.h>
+	<semaphore.h>
+	<nmmintrin.h>
+	<string>
+	"SparseMatrix.h"
+	"Stripe.h"
+	"Block_Stripe.h"
+	"PageRankVector.h"
+	"OutputNode.h"
+	"PageRank.h"
+
+1690382671 source:d:\software\development environment\c++ program\pthread\pagerank\src\outputnode.cpp
+	"OutputNode.h"
+
+1690382671 d:\software\development environment\c++ program\pthread\pagerank\include\outputnode.h
+	<iostream>
+	<cmath>
+
+1690365934 source:d:\software\development environment\c++ program\pthread\pagerank\src\vectorblock.cpp
+	"VectorBlock.h"
+
+1690433339 d:\software\development environment\c++ program\pthread\pagerank\include\vectorblock.h
+	<vector>
+	<algorithm>
+	"OutputNode.h"
+
+1690417325 source:d:\software\development environment\c++ program\pthread\pagerank\src\pagerankvector.cpp
+	"PageRankVector.h"
+
+1690433339 d:\software\development environment\c++ program\pthread\pagerank\include\pagerankvector.h
+	<string>
+	<vector>
+	<list>
+	<set>
+	<algorithm>
+	<iomanip>
+	"OutputNode.h"
+	"VectorBlock.h"
+
+1690301841 source:d:\software\development environment\c++ program\pthread\pagerank\src\stripe.cpp
+	"Stripe.h"
+	"Stripe.h"
+	<iostream>
+
+1690433339 d:\software\development environment\c++ program\pthread\pagerank\include\stripe.h
+	<string>
+	<vector>
+
+1690380939 source:d:\software\development environment\c++ program\pthread\pagerank\src\block_stripe.cpp
+	"Block_Stripe.h"
+
+1690433339 d:\software\development environment\c++ program\pthread\pagerank\include\block_stripe.h
+	<string>
+	<vector>
+	"Stripe.h"
+
+1690413002 source:d:\software\development environment\c++ program\pthread\pagerank\src\sparsematrix.cpp
+	"SparseMatrix.h"
+
+1690433339 d:\software\development environment\c++ program\pthread\pagerank\include\sparsematrix.h
+	<iostream>
+	<vector>
+	<map>
+	<list>
+	"Stripe.h"
+	"Block_Stripe.h"
+	"PageRankVector.h"
+
+1690418983 source:d:\software\development environment\c++ program\pthread\pagerank\src\pagerank.cpp
+	"PageRank.h"
+
+1690404733 d:\software\development environment\c++ program\pthread\pagerank\include\pagerank.h
+	<iostream>
+	<vector>
+	<pthread.h>
+	<chrono>
+	<thread>
+	"SparseMatrix.h"
+	"PageRankVector.h"
+	"OutputNode.h"
+
